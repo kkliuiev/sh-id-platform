@@ -8,10 +8,10 @@ make private_key=1ec1d7b96ee2512390f755475379448f1a0886cc3b050ed09da58e95329b2fd
 sleep 10
 make add-vault-token
 sleep 10
-make generate-issuer-did-arm
+make generate-issuer-did
 sleep 10
-make run-arm
+make run
 sleep 10
-make run-ui-arm
+make run-ui
 sleep 10
 docker ps
