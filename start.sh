@@ -1,6 +1,6 @@
 make down
 sleep 10
-docker system prune
+docker system prune --force
 docker ps
 make up
 sleep 10
